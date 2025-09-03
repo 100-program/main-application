@@ -1,0 +1,35 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.log
+*.sqlite3
+*.sqlite3-journal
+
+# 仮想環境
+venv/
+.env
+*.env
+
+# Django特有
+db.sqlite3
+local_settings.py
+media/
+staticfiles/
+
+# Node.js / React関連
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# OS・エディタ依存
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# その他一時ファイル
+*.swp
+*.tmp
